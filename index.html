@@ -7,41 +7,81 @@
         <title>Document</title>
     </head>
     <body>
+        <h2>BÀI 1</h2>
+        <p>Sắp xếp theo thứ tự tăng dần</p>
+        <input id ="num1" type="number" placeholder="Số thứ 1">
+        <input id ="num2" type="number" placeholder="Số thứ 2">
+        <input id ="num3" type="number" placeholder="Số thứ 3">
+        <br><br>
+        <button onclick="myFunction1()">Nhấn vào để hiển thị</button>
+    <div id="firstResult" style="display:none">
+        <p>Thứ tự tăng dần là:</p>
+        <p id="order"></p>
+    </div>
+<br/> 
+<br/>
 
-        <h2>Bài tập 1</h2>
-        <input id="num1" type="number" placeholder="Số thứ tự 1">
-        <input id="num2" type="number" placeholder="Số thứ tự 2">
-        <input id="num3" type="number" placeholder="Số thứ tự 3">
-
-        <input id="calcEl" type="text">
-        <button onclick="myFunction()">Bắt đầu tính</button>
-
-        <br />
-
-        <h2>Bài tập 2</h2>
-        <input id="welcomeEl" type="text" placeholder="Bạn là ai?!">
-        <input id="result" type="text">
-        <button onclick="choose">Click here</button>
-
-
-        <h2>Bài tập 3</h2>
-        <input id="num1" type="number">
-        <input id="num2" type="number">
-        <input id="num3" type="number">
+<h2>BÀI 2</h2>
+    <p>Bạn Là Ai?!</p>
+    <select style="width:140px" class="form-select" id="whoRU">
+        <option value="">Hãy chọn</option>
+        <option value="Bố">Bố</option>
+        <option value="Mẹ">Mẹ</option>
+        <option value="Anh trai">Anh trai</option>
+        <option value="Em gái">Em gái</option>
+    </select>
+    <br>
+    <button onclick="myFunction2()">Xác nhận</button>
+    <div id="secondResult" style="display:none">
+        <span id="helloThere"></span>
+    </div>
+    <br/> 
+    <br/>
 
 
-        <h2>Bài tập 4</h2>
-        <input id="canhA" type="number" placeholder="cạnh A">
-        <input id="canhB" type="number" placeholder="cạnh B">
-        <input id="canhC" type="number" placeholder="cạnh C">
+    <h2>BÀI 3</h2>
+    <p>Tổng kết số chẵn - lẻ?</p>
+    <input id ="num1" type="number" placeholder="Number 1">
+    <input id ="num2" type="number" placeholder="Number 2">
+    <input id ="num3" type="number" placeholder="Number 3">
+    <br/>
+    <br/>
+    <button onclick="myFunction3()">Xem kết quả!</button>
+    <br/>
+    <div id="thirdResult" style="display:none">
+    <br/>
+    <p style="margin-bottom: 15px" id="even"></p>
+    <p style="margin-bottom: 15px" id="odd"></p>
+<br/>
+<br/>
 
-        <p id="result"></p>
+    <h2>BÀI 4</h2>
+    <p>Đây là tam giác gì?</p>
+    <input id ="" type="number" placeholder="Nhập 1 số">
+    <input id ="L" type="number" placeholder="Nhập 1 số">
+    <input id ="U" type="number" placeholder="Nhập 1 số">
+    <br/>
+    <br/>
+    <button onclick="submit4()">Xem kết quả!</button>
 
-        <button type="button" onclick="resultEl()">Kết quả</button>
+        <div id="result4" style="display:none" >
+        <p id="triangle"></p>
+    </div>
 
-        <script src="./Baitap4_Hinhtamgiac.js"></script>
-        <script src="./Baitap2_Vietloichao.js"></script>
-        <script src="./Baitap1_Sothututangdan.js"></script>
-        <script src="./Baitap3_Sochanle.js"></script>
-    </body>
-    </html>
+<h2>Bài tập 4</h2>
+<input id="canhA" type="number" placeholder="cạnh A">
+<input id="canhB" type="number" placeholder="cạnh B">
+<input id="canhC" type="number" placeholder="cạnh C">
+
+<p id="result"></p>
+
+<button type="button" onclick="resultEl()">Kết quả‹</button>
+
+
+
+<script src="./Baitap4_Hinhtamgiac.js"></script>
+<script src="./Baitap2_Vietloichao.js"></script>
+<script src="./Baitap1_Sothututangdan.js"></script>
+<script src="./Baitap3_Sochanle.js"></script>
+</body>
+</html>
