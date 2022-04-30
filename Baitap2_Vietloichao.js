@@ -8,7 +8,7 @@
 function myFunction2(){
     var whoIsThere = document.getElementById("whoRU").value
     document.getElementById("secondResult").style.display = 'block';
-    document.getElementById("helloThere").innerHTML = `"Xin chào ${whoIsThere}`
+    document.getElementById("helloThere").innerHTML = `Xin chào ${whoIsThere}`
 }
 
 
